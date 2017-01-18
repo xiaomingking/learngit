@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/denglu.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<script type="text/javascript" src="js/Ajax.js" ></script>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		 <script type="text/javascript">
+       function main() {
+            document.getElementById("sign").onclick = function () {
+                var user=document.getElementById("userAccount").value;
+                var pwd_f = document.getElementById("password").value;
+                var _params = {
+                    "mobile": user,
+                    "password": pwd_f
+                };
+                ajaxRequest("post", "api/login.php", true, _params, function (data) {
+                   /* try{
+					console.log(data)
+                        var _data=JSON.parse(data);
+                        alert("欢迎:"+_data["mobile"]+" 光顾!!");
+                        window.location.href="beauty.html";
+                    }catch (e){
+                        alert("忘记密码了吗?");
+                    }*/
+					if(data==1){
+								console.log(data);
+								alert("欢迎光顾!!");
+								window.location.href="beauty.html";
+							}else{
+								alert("忘记密码了吗?");
+							}
+                });
+            }
+        }
+        window.onload=main;
+    </script>
+	</head>
+	<body>
+		<div id="top"></div>
+			<div>
+				<ul>
+					<li><span>账号：</span><input type="text" id="userAccount"/><span class="comment"></span></li>
+					<li><span>用户密码：</span><input type="password" id="password"/><span class="comment"></span></li>
+				</ul>
+			</div>
+			<div class="btn">
+				<span id="sign">登陆</span>
+			</div>
+	</body>
+</html>

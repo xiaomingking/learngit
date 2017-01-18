@@ -1,0 +1,293 @@
+.bgtop{
+	width:100%;height:44px;min-width: 1200px;background:#322f3b;
+}
+#top{
+	height:44px;width: 1200px;background:#322f3b;margin:0 auto;position: relative;
+}
+#top .the{
+	float: left;width:80px;height:44px;
+}
+#top .the a{
+	display:block;float: left;width:80px;height:44px;line-height:44px;color:#dedede;font-size:13px;text-align:center;color:#dedede;
+	
+}
+#top .the span{
+	background:url(../images/arrow-down.png);display: inline-block;width:10px;height:10px;
+}
+#top #one{
+	margin-left:-6px;
+}
+#top #two{
+	width:90px;
+}
+#top #three{
+	width:105px;
+}
+#top #four{
+	width:160px;
+}
+#top #two a{
+	width:90px;
+}
+#top #three a{
+	width:105px;
+}
+#top #four a{
+	width:160px;
+}
+#top ul{
+	float:right;line-height: 44px;color:#dedede;
+}
+#top ul li a{
+	color:#dedede;font-size: 13px;
+}
+#top ul .tongdao:hover{
+	color:#fff;
+}
+#top ul .denglu:hover{
+	background: #fff;
+}
+#top ul li{
+	float: left;text-align:center;
+}
+#top ul li:nth-of-type(1) a{
+	height:44px;width:53px;float: none;display: inline-block;margin-left:0px;
+}
+#top ul li span{
+	display: inline-block;color:#504f4f;
+}
+#top ul li:nth-of-type(2){
+	height:44px;width:90px;
+}
+#top ul li:nth-of-type(3){
+	height:44px;width:94px;background: #27252e;padding-left:22px;
+}
+#top ul li:nth-of-type(3) span{
+	margin-left:5px;display: inline;background: none;font-size:13px;color:#dedede;
+}
+#top ul li img{
+	vertical-align: middle;
+}
+#app{
+	width:160px;height:0px;background:#27252e;position: absolute;top:44px;overflow: hidden;z-index: 99;
+}
+
+#top #two #app li a{
+	display:block;height:42px;color:#dedede;line-height: 42px;margin-left: 22px;text-align: left;
+}
+
+#app1{
+	width:165px;height:0px;background:#27252e;position: absolute;top:44px;overflow: hidden;z-index: 99;
+}
+#top #three #app1 li a{
+	display:block;height:50px;color:#dedede;line-height: 50px;margin-left: 22px;text-align: left;
+}
+#app2{
+	width:160px;height:0px;background:#27252e;position: absolute;top:44px;overflow: hidden;z-index: 99;
+}
+#top #four #app2 li a{
+	display:block;height:40px;color:#dedede;line-height: 40px;margin-left: 22px;text-align: left;
+}
+#top #two #app li a:hover{
+	color:white;
+}
+#top #three #app1 li a:hover{
+	color:white;
+}
+#top #four #app2 li a:hover{
+	color:white;
+}
+.bglogo{
+	width:100%;height:89px;min-width: 1200px;background: #fff;border-bottom: #dcdcdc solid 1px;position: relative;
+}
+.bglogo .down{
+	width:100%;height:0px;position: absolute;top:90px;overflow: hidden;left:0px;z-index: 99;background:#fff ;
+}
+.bglogo  .small{
+	width:1200px;height:202px;margin:0 auto;
+}
+.bglogo  .small div{
+	float: left;margin-left: 75px;width:120px;height:202px;
+}
+.bglogo  .small div:first-child{
+	margin-left: 60px;
+}
+.bglogo  .small div span{
+	display: block;width:120px;height:30px;line-height: 30px;
+}
+.bglogo  .small img{
+	width:120px;height:120px;
+}
+.bglogo .down1{
+	width:100%;height:0px;position: absolute;top:90px;overflow: hidden;left:0px;z-index: 99;background:#fff
+}
+.bglogo .down2{
+	width:100%;height:0px;position: absolute;top:90px;overflow: hidden;left:0px;z-index: 99;background:#fff
+}
+.logo{
+	width:1200px;height:89px;margin:0 auto;
+}
+.logo img{
+	width:213px;height:45px;vertical-align: middle;float: left;margin-top:22px;display: block;
+}
+.logo ul{
+	margin-left:30px;float:left;height:89px;
+}
+.logo ul li a{
+	color:#555555;position:relative;
+}
+.logo ul li{
+	float: left;height:89px;line-height:89px;font-size: 14px;margin-left:20px;width:62px;text-align: center;
+	border-bottom: 1px solid transparent;
+}
+.logo ul li a:hover{
+	color:#ee4985;
+}
+#input{
+	float:right;
+}
+.logo input:nth-of-type(1){
+	float: left;width:180px;height:38px;border: 1px solid #e5e5e5;margin-top:25px;outline: none; 
+}
+.logo input:nth-of-type(2){
+	float: left;width:38px;height:38px;border: 1px solid #e5e5e5;margin-top:25px;margin-left: -1px;outline: none; 
+}
+/*logo结束*/
+.bgbanner{
+	width:100%;height:481px;min-width: 1200px;
+}
+.banner{
+	width: 1200px;height: 481px;margin: 0 auto;position: relative;
+}
+.banner ul{
+	width: 208px;height: 481px;background:rgba(17,0,18,0.8);float: left;padding-left: 22px;	position: absolute;
+	z-index: 20;
+}
+.banner ul .one{
+	height:94px;width: 207px;line-height: 28px;margin-top:15px;padding-left: 22px;margin-left:-22px;
+	transition: all 300ms;
+}
+.banner ul .two{
+	height:68px;width: 207px;line-height: 30px;padding-left: 22px;margin-left:-22px;
+}
+.banner ul .five{
+	height:38px;width:207px;line-height: 38px;padding-left: 22px;margin-left:-22px;
+}
+.banner .two li{
+	width:60px;
+}
+ .banner .one div{
+ 	display: none;
+ }
+ .banner .one div ul{
+	width:296px;height:460px;background:rgba(255,255,255,1);position: absolute;left:230px;top:0px;opacity: 1;
+	padding-top:20px;
+}
+.banner .one div li{
+ 	width:260px;height:80px;margin-top:10px;
+ }
+
+  .banner .one div li a{
+  	color:#222;
+  }
+   .banner .one div li a span{
+   	 padding-left:20px;display: inline-block;width:130px;line-height: 20px;vertical-align: middle;
+   }
+ .banner .one div img{
+ 	width:75px;height:75px;vertical-align: middle;
+ }
+ .banner .two div{
+ 	display: none;
+ }
+.banner .two div ul{
+	width:296px;height:460px;background:rgba(255,255,255,1);position: absolute;left:230px;top:0px;opacity: 1;
+	padding-top:20px;
+}
+.banner .two div li{
+ 	width:260px;height:80px;margin-top:10px;
+ }
+
+.banner .two div li a{
+  	color:#222;
+  }
+.banner .two div li a span{
+   	 padding-left:20px;display: inline-block;width:130px;line-height: 20px;vertical-align: middle;
+   }
+.banner .two div img{
+ 	width:75px;height:75px;vertical-align:middle;
+ }
+ .banner #five div{
+ 	display: none;
+ }
+.banner #five div ul{
+	width:296px;height:460px;background:rgba(255,255,255,1);position: absolute;left:230px;top:0px;opacity: 1;
+	padding-top:20px;
+}
+.banner #five div li{
+ 	width:260px;height:80px;margin-top:10px;
+ }
+
+.banner #five div li a{
+  	color:#222;
+  }
+.banner #five div li a span{
+   	 padding-left:20px;display: inline-block;width:130px;line-height: 20px;vertical-align: middle;
+   }
+.banner #five div img{
+ 	width:75px;height:75px;vertical-align:middle;
+ }
+.banner ol li{
+	width:70px;height:26px;line-height: 26px;display:block;float: left;
+}
+.banner ol li a{
+	color: #cfcfcf;
+}
+.banner ul a{
+	color:#fff;
+}
+.banner ul a:hover{
+	text-decoration:underline;color:#fff;
+}
+.banner #banner{
+	width:1200px;height:481px;background: yellow;position: relative;background: url(../images/img5.jpg);
+}
+#banner img{
+	position: absolute;
+}
+#banner #dian{
+	position: absolute;bottom:30px;right:47px;width:180px;height:16px;z-index: 9;
+}
+#banner #dian span{
+	display: block;float: left;width:17px;height: 17px;background: #fff;margin-left:15px;border-radius: 50%;
+	border:1px solid #99999e;opacity:0.6;cursor: pointer;
+}
+#banner #dian span:last-child{
+	opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
